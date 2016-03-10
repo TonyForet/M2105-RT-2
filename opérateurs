@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Variables</title>
+	</head>
+
+<body>
+<?php
+
+//un entier
+$a=5;
+$b=7;
+
+function addition($a,$b) {
+	return $a + $b;
+}
+echo addition(5,7)."<br>\n";
+
+function soustraction($a,$b) {
+	return $a - $b;
+}
+echo soustraction(5,7)."<br>\n";
+
+function multiplication($a,$b) {
+	return $a * $b;
+}
+echo multiplication(5,7)."<br>\n";
+
+function division($a,$b) {
+	return $a / $b;
+}
+echo division(5,7)."<br>\n";
+
+?>
+</body>
+</html>
