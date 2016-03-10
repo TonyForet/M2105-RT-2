@@ -8,3 +8,12 @@
 <body>
 <?php
 
+function CreateHTMLTable() {
+
+
+}
+
+
+?>
+</body>
+</html>
