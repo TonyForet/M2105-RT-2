@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Variables</title>
+</head>
+<body>
+<?php
+//un entier
+$i=5;
+echo($i);
+
+//un booléen
+$b=true;
+echo($b);
+?>
+<br>
+<?php
+$str="1 chaîne";
+echo "\$str est : ".gettype($str).".<br>\n";
+echo $str."<br>";
+echo $i." accessible depuis un autre bloc de script<br>\n";
+echo "Ajout d'un entier et d'une chaîne : ".($i+$str)."<br>\n";
+$i="devenu une chaîne";
+
+echo "La variable $i est devenue une chaîne : ".$i."<br>\n";
+echo 'La variable $i est devenue une chaîne : '.$i."<br>\n";
+?>
+</body>
+</html>
