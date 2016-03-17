@@ -1,0 +1,3 @@
+function getHeader($startSession, $title){
+    if ($startSession
+}
